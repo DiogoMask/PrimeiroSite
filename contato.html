@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato - Corretora Eloisa</title>
+  </head>
+  <body>
+    <header>
+      <div class="caixa">
+      <h1><img src="logo.png" class="logo" alt="Logo Corretora Eloisa"></h1>
+      <nav>
+        <ul class="navegaçao">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="contato.html">Contato<a/></li>
+        </ul>
+      </div>
+      <nav>
+    </header>
+
+    <main>
+      <form>
+        <label for="nomeSobrenome">Nome e sobrenome:</label>
+        <input type="text" id="nomeSobrenome" class="input-padrao" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+        <label for="numero">Telefone/cel:</label>
+        <input type="tel" id="numero" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea rows="10" cols="70" id="mensagem" class="input-padrao"></textarea placeholder="Qual dos produtos te interessou?">
+
+
+        <fieldset>
+          <legend>Como prefere nosso contato?</legend>
+          <label for="radio-email"><input type="radio" name="contato"
+            value="email" id="radio-email" >Email</label>
+
+          <label for="radio-ligaçao"><input type="radio" name="contato"
+             value="numero" id="radio-ligaçao">Ligação</label>
+
+
+          <label for="radio-whatsapp"><input type="radio" name="contato"
+            value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+        </fieldset>
+        <fieldset>
+          <legend>Qual horário prefere ser atendido?</legend>
+          <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+          </select>
+        </fieldset>
+        <label><input type="checkbox" class="checkbox" checked>Gostaria de receber o nossas novidade por E-mail?</label>
+
+        <input type="submit" value="Enviar formulário" class="enviar">
+      </form>
+    </main>
+
+    <footer>
+      <img src="logo.png" class="logorodape" alt="Logo Corretora Eloisa">
+      <p class="copyright">&copy; Copyright Corretora Eloisa - 2022</p>
+    </footer>
+  </body>
+</html>

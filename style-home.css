@@ -1,0 +1,103 @@
+head{
+
+}
+body{
+
+}
+header{
+  background: #BBBBBB;
+  padding: 22px;
+}
+
+.logo{
+  width:300px;
+  height:125px;
+}
+.caixa{
+  width: 1080px;
+  position: relative;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 62.5px;
+  right: 0px;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+nav a:hover{
+  color: #ffde59;
+  text-decoration: underline;
+}
+main{
+  text-align: center;
+}
+
+.corretora{
+  width: 100%;
+  height: 500px;
+  padding: 40px;
+  padding-left: 150px;
+  padding-right: 150px;
+  box-sizing: border-box;
+  background-size: auto;
+  background-color: black;
+}
+ul a{
+  color: black;
+  text-decoration: none;
+}
+ul a:hover{
+}
+.disposiçao {
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+  vertical-align:bottom;
+  margin: 10%;
+  padding: 50px;
+  box-sizing: border-box;
+  border: 2px solid #ffde59;
+  border-radius: 20px 40px 60px;
+}
+
+.disposiçao:hover{
+  border-color: black;
+
+}
+.disposiçao:hover h3{
+  font-size: 34px;
+  color: #ffde59;
+}
+.disposiçao:active{
+  border-color: blue;
+}
+
+.atraçao{
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+footer{
+  background-color: #BBBBBB;
+  text-align: center;
+  padding: 40px;
+}
+.logorodape{
+  width: 200px;
+  height: 80px;
+}
+
+.copyright{
+  font-size: 13px;
+  margin: 20px;
+}
